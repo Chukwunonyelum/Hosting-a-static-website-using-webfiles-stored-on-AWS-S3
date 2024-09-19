@@ -49,8 +49,8 @@ Sample Script (host-website.sh):
 bash
 
 Copy code
-
-''''#!/bin/bash
+```bash
+#!/bin/bash
 
 # Update the instance
 
@@ -79,7 +79,9 @@ chmod -R 755 /var/www/html/
 # Restart the web server
 
 systemctl restart httpd
-'''
+```
+
+
 
 Explanation of the Script:
 
