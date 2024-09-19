@@ -50,7 +50,7 @@ bash
 
 Copy code
 
-#!/bin/bash
+''''#!/bin/bash
 
 # Update the instance
 
@@ -79,6 +79,7 @@ chmod -R 755 /var/www/html/
 # Restart the web server
 
 systemctl restart httpd
+'''
 
 Explanation of the Script:
 
